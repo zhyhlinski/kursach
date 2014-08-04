@@ -14,6 +14,7 @@ public class EbayItemForm extends BaseForm{
 	private Label firstItemName = new Label(By.xpath("//h1[contains(@id,'itemTitle')]"),"First item name text");
 
 	public void clickAddToCart() {
+		assert(btnAddToCart.isPresent());
 		btnAddToCart.click();
 	}
 	public void firstItemAssert(String itemName)

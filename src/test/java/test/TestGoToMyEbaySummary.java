@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import test.forms.*;
 import webdriver.BaseTest;
 
-public class TestHoverMenuOnMainForm extends BaseTest{
+public class TestGoToMyEbaySummary extends BaseTest {
 	String site, login, pass, firstname, searchtext;
 	 @Test
 	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
@@ -26,8 +26,18 @@ public class TestHoverMenuOnMainForm extends BaseTest{
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
-		emf.mouseOverElectronics();
+		emf.clickSignIn();
 		logger.step(4);
-		emf.iphoneAssert();	
+		EbaySignInForm esif = new EbaySignInForm();
+		logger.step(5);
+		esif.signIn(login, pass);
+		logger.step(6);
+		emf = new EbayMainForm();
+		logger.step(7);
+		emf.signInAssert(firstname);
+		logger.step(8);
+		emf.clickMyEbay();
+		logger.step(9);
+		new EbayMyEbaySummaryForm();
 	}
 }

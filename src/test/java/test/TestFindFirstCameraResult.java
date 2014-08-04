@@ -7,14 +7,14 @@ import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestFindFirstCameraResult extends BaseTest {
-	String site, login, pass, firstname, stext;
+	String site, login, pass, firstname, searchtext;
 	 @Test
-	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
-	 public void readParams(String siteUrl, String stext, String login, String pass, String firstname) throws Throwable {
+	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtext, String login, String pass, String firstname) throws Throwable {
 	  this.site = siteUrl;
 	  this.login = login;
 	  this.pass = pass;
-	  this.stext = stext;
+	  this.searchtext = searchtext;
 	  this.firstname = firstname;
 	  xTest();
 	 }
@@ -22,10 +22,8 @@ public class TestFindFirstCameraResult extends BaseTest {
 	 @Parameters()
 	public void runTest() {
 		String finame;
-		//String site = "http://www.ebay.com/";
 		logger.step(1);
 		browser.navigate(site);
-		browser.waitForPageToLoad();
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
@@ -37,28 +35,22 @@ public class TestFindFirstCameraResult extends BaseTest {
 		logger.step(6);
 		EbayCamerasForm ecf = new EbayCamerasForm();
 		logger.step(7);
-		ecf.camerasAssert();
-		logger.step(8);
 		ecf.clickDigitalCameras();
-		logger.step(9);
-		//browser.waitForPageToLoad();
+		logger.step(8);
 		EbayDigitalCamerasForm edcf = new EbayDigitalCamerasForm();
-		logger.step(10);
+		logger.step(9);
 		edcf.clickDigitalCameras();
-		logger.step(11);
+		logger.step(10);
 		EbaySearchResultsForm ecr = new EbaySearchResultsForm();
-		logger.step(12);
+		logger.step(11);
 		ecr.clickBuyItNow();
-		browser.waitForPageToLoad();
-		logger.step(13);
-		//ecr = new ebayCamerasResults();
-		//logger.step(14);
+		logger.step(12);
+		ecr.clickPriceShipHighest();
 		finame = ecr.getFirstItemName();
-		//System.out.print(finame);
 		ecr.clickFirstItem();
-		logger.step(14);
+		logger.step(13);
 		EbayItemForm ecfif = new EbayItemForm();
-		logger.step(15);
+		logger.step(14);
 		ecfif.firstItemAssert(finame);
 	}
 }

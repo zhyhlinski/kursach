@@ -7,36 +7,31 @@ import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestAddToCartFirstCameraResult extends BaseTest {
-	
-	String site, login, pass, firstname, stext;
+	String site, login, pass, firstname, searchtext;
 	 @Test
-	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
-	 public void readParams(String siteUrl, String stext, String login, String pass, String firstname) throws Throwable {
+	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtext, String login, String pass, String firstname) throws Throwable {
 	  this.site = siteUrl;
 	  this.login = login;
 	  this.pass = pass;
-	  this.stext = stext;
+	  this.searchtext = searchtext;
 	  this.firstname = firstname;
 	  xTest();
 	 }
 	 @Override
 	 @Parameters()
-	
 	public void runTest() {
 		String finame;
 		logger.step(1);
 		browser.navigate(site);
-		browser.waitForPageToLoad();
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
 		emf.clickSignIn();
-		browser.waitForPageToLoad();
 		logger.step(4);
 		EbaySignInForm esif = new EbaySignInForm();
 		logger.step(5);
 		esif.signIn(login, pass);
-		browser.waitForPageToLoad();
 		logger.step(6);
 		emf = new EbayMainForm();
 		logger.step(7);
@@ -50,31 +45,31 @@ public class TestAddToCartFirstCameraResult extends BaseTest {
 		logger.step(11);
 		EbayCamerasForm ecf = new EbayCamerasForm();
 		logger.step(12);
-		ecf.camerasAssert();
-		logger.step(13);
 		ecf.clickDigitalCameras();
-		logger.step(14);
-		//browser.waitForPageToLoad();
+		logger.step(13);
 		EbayDigitalCamerasForm edcf = new EbayDigitalCamerasForm();
-		logger.step(15);
+		logger.step(14);
 		edcf.clickDigitalCameras();
-		logger.step(16);
+		logger.step(15);
 		EbaySearchResultsForm ecr = new EbaySearchResultsForm();
-		logger.step(17);
+		logger.step(16);
 		ecr.clickBuyItNow();
-		browser.waitForPageToLoad();
-		logger.step(18);
+		logger.step(17);
+		ecr.clickPriceShipHighest();
 		finame = ecr.getFirstItemName();
 		ecr.clickFirstItem();
-		logger.step(19);
+		logger.step(18);
 		EbayItemForm ecfif = new EbayItemForm();
-		logger.step(20);
+		logger.step(19);
 		ecfif.firstItemAssert(finame);
-		logger.step(21);
+		logger.step(20);
 		ecfif.clickAddToCart();
+		logger.step(21);
+		EbayShoppingCartForm escf = new EbayShoppingCartForm();
 		logger.step(22);
-		browser.waitForPageToLoad();		
+		escf.clickRemove();
 		logger.step(23);
+		escf.emptyShoppingCartAssert();
 
 	}
 }

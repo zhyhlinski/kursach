@@ -7,34 +7,30 @@ import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestGoToMessages extends BaseTest {
-	String site, login, pass, firstname, stext;
+	String site, login, pass, firstname, searchtext;
 	 @Test
-	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
-	 public void readParams(String siteUrl, String stext, String login, String pass, String firstname) throws Throwable {
+	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtext, String login, String pass, String firstname) throws Throwable {
 	  this.site = siteUrl;
 	  this.login = login;
 	  this.pass = pass;
-	  this.stext = stext;
+	  this.searchtext = searchtext;
 	  this.firstname = firstname;
 	  xTest();
 	 }
 	 @Override
 	 @Parameters()
-	 
 	public void runTest() {
 		logger.step(1);
 		browser.navigate(site);
-		browser.waitForPageToLoad();
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
 		emf.clickSignIn();
-		browser.waitForPageToLoad();
 		logger.step(4);
 		EbaySignInForm esif = new EbaySignInForm();
 		logger.step(5);
 		esif.signIn(login, pass);
-		browser.waitForPageToLoad();
 		logger.step(6);
 		emf = new EbayMainForm();
 		logger.step(7);
@@ -44,10 +40,7 @@ public class TestGoToMessages extends BaseTest {
 		logger.step(9);
 		emf.clickMessages();
 		logger.step(10);
-		browser.waitForPageToLoad();
-		logger.step(11);
-		EbayMyEbayForm emef = new EbayMyEbayForm();
-		logger.step(12);
-		emef.messagesAssert();
+		new EbayMyEbayMessagesForm();
+
 	}
 }

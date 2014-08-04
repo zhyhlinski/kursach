@@ -3,19 +3,33 @@
 	
 	<test name="Functional Tests" preserve-order="true">
 	<parameter name="siteUrl" value="http://www.ebay.com/"/>
-	<parameter name="searchtextblog" value="ipod 32gb 5g"/>
+	<parameter name="searchtext" value="ipod 32gb 5g"/>
 	<parameter name="login" value="zomox@walkmail.net"/>
 	<parameter name="pass" value="itransitiona1qa"/>
 	<parameter name="firstname" value="Kot"/>
 		<classes>
-			<class name="test.TestSignOut" />
-			<class name="test.TestHoverMenuOnMainForm" />
-			<class name="test.TestSearch" />
-			<class name="test.TestSignIn" />
-			<class name="test.TestAddToCartFirstCameraResult" />
+			
+		<class name="test.TestAddToCartFirstCameraResult" />
+		
 			<class name="test.TestFindFirstCameraResult" />
+			
+			<class name="test.TestSearch" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<class name="test.TestSignIn" />
+			<class name="test.TestSignOut" />
+			<class name="test.TestGoToShoppingCart" />
+			<class name="test.TestGoToMyEbaySummary" />
 			<class name="test.TestGoToMessages" />
-			<class name="test.TestGoToMyEbay" />
+			<class name="test.TestHoverMenuOnMainForm" />
         </classes>
 	</test>
 </suite>
