@@ -1,9 +1,12 @@
 package test;
 
+import org.testng.annotations.Test;
+
 import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestSearch extends BaseTest {
+	@Test
 	public void runTest() {
 		String site = "http://www.ebay.com/";
 		String stext= "ipod 32gb 5g";

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
@@ -8,67 +8,543 @@
       <![CDATA[Browser 'firefox' ready...<br>]]>
     </line>
     <line>
+      <![CDATA[--------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'test.TestSignOut' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 333msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Sign in form' appears in 132msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 239msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Drop down menu' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign out' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 156msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 10 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.TestSignOut' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[*************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 261msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search bar' :: Typing 'ipod 32gb 5g'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Search Results' appears in 138msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'firefox' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'test.TestSignIn' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 250msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Sign in form' appears in 94msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 230msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.TestSignIn' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
       <![CDATA[driver.quit...<br>]]>
     </line>
     <line>
       <![CDATA[killing processes<br>]]>
     </line>
   </reporter-output>
-  <suite name="Demo Test Plan" duration-ms="205" started-at="2014-08-04T13:35:09Z" finished-at="2014-08-04T13:35:09Z">
+  <suite name="Demo Test Plan" duration-ms="136242" started-at="2014-08-04T17:25:42Z" finished-at="2014-08-04T17:27:58Z">
     <groups>
     </groups>
-    <test name="Functional Tests" duration-ms="205" started-at="2014-08-04T13:35:09Z" finished-at="2014-08-04T13:35:09Z">
-      <class name="test.TestSignIn">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignIn@42e68a]" name="before" is-config="true" duration-ms="43" started-at="2014-08-04T16:35:09Z" finished-at="2014-08-04T16:35:09Z">
+    <test name="Functional Tests" duration-ms="136242" started-at="2014-08-04T17:25:42Z" finished-at="2014-08-04T17:27:58Z">
+      <class name="test.TestSearch">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSearch@8be880]" name="before" is-config="true" duration-ms="7898" started-at="2014-08-04T20:26:35Z" finished-at="2014-08-04T20:26:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1ffefa0]]>
+                <![CDATA[org.testng.TestRunner@f8ee5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="runTest()[pri:0, instance:test.TestSearch@8be880]" name="runTest" duration-ms="28701" started-at="2014-08-04T20:26:43Z" finished-at="2014-08-04T20:27:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 261msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search bar' :: Typing 'ipod 32gb 5g'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Search Results' appears in 138msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSearch@8be880]" name="after" is-config="true" duration-ms="144" started-at="2014-08-04T20:27:11Z" finished-at="2014-08-04T20:27:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.TestSearch -->
+      <class name="test.TestSignOut">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignOut@509464]" name="before" is-config="true" duration-ms="43" started-at="2014-08-04T20:25:42Z" finished-at="2014-08-04T20:25:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f8ee5f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignIn@42e68a]" name="readParams" duration-ms="0" started-at="2014-08-04T16:35:09Z" finished-at="2014-08-04T16:35:09Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Method readParams requires 4 parameters but 2 were supplied in the @Test annotation.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Method readParams requires 4 parameters but 2 were supplied in the @Test annotation.
-	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:198)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:134)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignOut@509464]" name="readParams" duration-ms="52089" started-at="2014-08-04T20:25:42Z" finished-at="2014-08-04T20:26:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.ebay.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ipod 32gb 5g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zomox@walkmail.net]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[itransitiona1qa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kot]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.TestSignOut' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 333msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Sign in form' appears in 132msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 239msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Drop down menu' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign out' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 156msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 10 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.TestSignOut' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[*************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignIn@42e68a]" name="after" is-config="true" duration-ms="133" started-at="2014-08-04T16:35:09Z" finished-at="2014-08-04T16:35:09Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignOut@509464]" name="after" is-config="true" duration-ms="913" started-at="2014-08-04T20:26:34Z" finished-at="2014-08-04T20:26:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.TestSignOut -->
+      <class name="test.TestSignIn">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignIn@14d6b61]" name="before" is-config="true" duration-ms="6255" started-at="2014-08-04T20:27:12Z" finished-at="2014-08-04T20:27:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f8ee5f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'firefox' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignIn@14d6b61]" name="readParams" duration-ms="39397" started-at="2014-08-04T20:27:18Z" finished-at="2014-08-04T20:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.ebay.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ipod 32gb 5g]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zomox@walkmail.net]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[itransitiona1qa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.TestSignIn' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 250msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Sign in form' appears in 94msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 230msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.TestSignIn' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignIn@14d6b61]" name="after" is-config="true" duration-ms="778" started-at="2014-08-04T20:27:57Z" finished-at="2014-08-04T20:27:58Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>

@@ -9,8 +9,8 @@ public class TestSignIn extends BaseTest {
 
 	String site, login, pass, firstname;
 	 @Test
-	 @Parameters({"siteUrl", "searchtextblog"})
-	 public void readParams(String siteUrl, String login, String pass, String firstname) throws Throwable {
+	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtextblog, String login, String pass, String firstname) throws Throwable {
 	  this.site = siteUrl;
 	  this.login = login;
 	  this.pass = pass;
@@ -21,10 +21,10 @@ public class TestSignIn extends BaseTest {
 	 @Parameters()
 	 
 	public void runTest() {
-		//String site = "http://www.ebay.com/";
-		//String login = "zomox@walkmail.net";
-		//String pass = "itransitiona1qa";
-		//String firstname = "Kot";
+		/*String site = "http://www.ebay.com/";
+		String login = "zomox@walkmail.net";
+		String pass = "itransitiona1qa";
+		String firstname = "Kot";*/
 		logger.step(1);
 		browser.navigate(site);
 		browser.waitForPageToLoad();
