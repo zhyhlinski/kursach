@@ -10,7 +10,7 @@ public class TestSignOut extends BaseTest {
 	String site, login, pass, firstname, stext;
 	 @Test
 	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
-	 public void readParams(String siteUrl, String searchtextblog, String login, String pass, String firstname) throws Throwable {
+	 public void readParams(String siteUrl, String stext, String login, String pass, String firstname) throws Throwable {
 	  this.site = siteUrl;
 	  this.login = login;
 	  this.pass = pass;
