@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Test Plan]">
+  <parameter name="siteUrl" value="http://www.ebay.com/"/>
+  <parameter name="searchtextblog" value="ipod 32gb 5g"/>
+  <parameter name="login" value="itransitiona1qa"/>
+  <parameter name="firstname" value="Kot"/>
+  <parameter name="pass" value="zomox@walkmail.net"/>
+  <test name="Functional Tests(failed)">
+    <parameter name="siteUrl" value="http://www.ebay.com/"/>
+    <parameter name="searchtextblog" value="ipod 32gb 5g"/>
+    <parameter name="login" value="itransitiona1qa"/>
+    <parameter name="firstname" value="Kot"/>
+    <parameter name="pass" value="zomox@walkmail.net"/>
+    <classes>
+      <class name="test.TestSignIn">
+        <methods>
+          <include name="readParams"/>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestSignIn -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Demo Test Plan] -->

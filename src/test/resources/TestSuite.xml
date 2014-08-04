@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+	
+	<test name="Functional Tests" preserve-order="true">
+		<classes>
+			<class name="test.TestSignIn" />
+			<class name="test.TestAddToCartFirstCameraResult" />
+			<class name="test.TestFindFirstCameraResult" />
+			<class name="test.TestGoToMessages" />
+			<class name="test.TestGoToMyEbay" />
+			<class name="test.TestSearch" />
+			<class name="test.TestSignOut" />
+ 			<class name="test.TestHoverMenuOnMainForm" />
+ 			
+        </classes>
+	</test>
+</suite>
