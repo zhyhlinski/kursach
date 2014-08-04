@@ -1,15 +1,28 @@
 package test;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestSearch extends BaseTest {
-	@Test
+	String site, login, pass, firstname, stext;
+	 @Test
+	 @Parameters({"siteUrl", "searchtextblog","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtextblog, String login, String pass, String firstname) throws Throwable {
+	  this.site = siteUrl;
+	  this.login = login;
+	  this.pass = pass;
+	  this.stext = stext;
+	  this.firstname = firstname;
+	  xTest();
+	 }
+	 @Override
+	 @Parameters()
 	public void runTest() {
-		String site = "http://www.ebay.com/";
-		String stext= "ipod 32gb 5g";
+		//String site = "http://www.ebay.com/";
+		//String stext= "ipod 32gb 5g";
 		logger.step(1);
 		browser.navigate(site);
 		browser.waitForPageToLoad();
