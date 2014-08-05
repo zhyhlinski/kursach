@@ -8,7 +8,7 @@ import webdriver.elements.Button;
 import webdriver.elements.Label;
 
 public class EbayItemForm extends BaseForm{
-	private static String formlocator="//body/div[@id='Body']";
+	private static String formlocator="//div[@id='CenterPanelInternal']//form[contains(@name,'viactiondetails')]";
 	private Button btnAddToCart = new Button (By.id("isCartBtn_btn"),"Add to cart button");
 	private Label firstItemName = new Label(By.xpath("//h1[contains(@id,'itemTitle')]"),"First item name text");
 

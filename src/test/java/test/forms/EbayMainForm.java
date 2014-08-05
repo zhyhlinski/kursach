@@ -38,6 +38,10 @@ public class EbayMainForm extends BaseForm{
 		final String labelLocatorOrId = "//a[contains(@class,'rt') and contains(.,'Electronics')]";
 		mouseOver(By.xpath(labelLocatorOrId));
 	}
+	public void mouseOverCameras()
+	{
+		mouseOver(By.xpath("//a[contains(@title,'Electronics') and contains(.,'Cameras & Photo')]"));
+	}
 	public void mouseOverMyEbay() {
     	mouseOver(By.linkText("My eBay"));
 	}
@@ -57,7 +61,12 @@ public class EbayMainForm extends BaseForm{
 		btnMessages.click();
 	}
 	public void clickCameras() {
-		btnCameras.click();
+		btnCameras.isPresent(10);
+		RemoteWebDriver driver = browser.getDriver();
+		driver.findElementByXPath("//a[contains(@title,'Electronics') and contains(.,'Cameras & Photo')]").click();
+		//mouseOverCameras();
+		//
+		//btnCameras.click();
 	}
     public void clickSignIn() {
     	btnSignIn.click();

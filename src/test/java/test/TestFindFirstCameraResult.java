@@ -45,7 +45,6 @@ public class TestFindFirstCameraResult extends BaseTest {
 		logger.step(11);
 		ecr.clickBuyItNow();
 		logger.step(12);
-		ecr.clickPriceShipHighest();
 		finame = ecr.getFirstItemName();
 		ecr.clickFirstItem();
 		logger.step(13);

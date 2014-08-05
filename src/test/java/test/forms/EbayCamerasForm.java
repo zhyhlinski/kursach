@@ -13,7 +13,7 @@ public class EbayCamerasForm extends BaseForm{
     } 
 	
 	public EbayCamerasForm() {
-		super(By.xpath(formlocator), "Ebay Sign in form");
+		super(By.xpath(formlocator), "Ebay Cameras form");
 	}
 
 }

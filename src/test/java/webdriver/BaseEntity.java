@@ -183,12 +183,8 @@ public abstract class BaseEntity {
 		logger.info("killing processes");
 		try {
 			String line;
-			/*Process p = Runtime.getRuntime().exec(
-					String.format("taskkill /IM %1$s.exe /F",
-							Browser.currentBrowser.toString()));*/
-			//llinux version
 			Process p = Runtime.getRuntime().exec(
-					String.format("killall %1$s",
+					String.format("taskkill /IM %1$s.exe /F",
 							Browser.currentBrowser.toString()));
 			BufferedReader input = new BufferedReader(new InputStreamReader(p
 					.getInputStream()));

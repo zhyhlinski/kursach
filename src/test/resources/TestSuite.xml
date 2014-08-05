@@ -2,20 +2,20 @@
 <suite name="Demo Test Plan" verbose="1">
 	<test name="Functional Tests" preserve-order="true">
 	<parameter name="siteUrl" value="http://www.ebay.com/"/>
-	<parameter name="searchtext" value="ipod 32gb 5g"/>
+	<parameter name="searchtext" value="ipad 4g 32gb"/>
 	<parameter name="login" value="zomox@walkmail.net"/>
 	<parameter name="pass" value="itransitiona1qa"/>
 	<parameter name="firstname" value="Kot"/>
 		<classes>
+			<class name="test.TestGoToHowToPay" />
+			<class name="test.TestFindFirstCameraResult" />
 			<class name="test.TestSearch" />
 			<class name="test.TestSignIn" />
 			<class name="test.TestSignOut" />
 			<class name="test.TestGoToShoppingCart" />
 			<class name="test.TestGoToMyEbaySummary" />
-			<class name="test.TestGoToHowToPay" />
 			<class name="test.TestGoToMessages" />
-			<class name="test.TestFindFirstCameraResult" />
-			<class name="test.TestAddToCartFirstCameraResultAndRemove" />
+			<class name="test.TestAddToCartAndRemove" />
 			<class name="test.TestHoverMenuOnMainForm" />
         </classes>
 	</test>

@@ -25,6 +25,7 @@ public class EbaySearchResultsForm extends BaseForm{
 	
 	public void clickPriceShipHighest() {
 		mouseOverSortMenu();
+		btnPriceShipHighest.isPresent(10);
 		btnPriceShipHighest.click();
     } 
 	public String getFirstItemName()
