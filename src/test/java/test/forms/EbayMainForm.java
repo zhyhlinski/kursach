@@ -13,79 +13,42 @@ import webdriver.elements.Label;
 import webdriver.elements.TextBox;
 
 public class EbayMainForm extends BaseForm{
-	//private static String formlocator="//body";//body[starts-with(., 'sz')]
-	private static String formlocator="//div[contains(@class,'mainContent')]";
-	
+	private Button btnCustomerSupport = new Button (By.linkText("Customer Support"),"Customer Support");
 	private Button btnSignIn = new Button (By.linkText("Sign in"),"Sign in");
 	private Button btnSignOut = new Button (By.linkText("Sign out"),"Sign out");
-	//private Button btnMenu = new Button (By.id("gh-ug"),"Drop down menu");
 	private Button btnCameras = new Button (By.xpath("//a[contains(@title,'Electronics') and contains(.,'Cameras & Photo')]"),"Cameras & Photo button");
 	private Button btnSearch = new Button (By.id("gh-btn"),"Search button");
 	private Button btnIphone = new Button (By.xpath("//a[contains(@title,'Electronics') and contains(.,'iPhone')]"),"Iphone button");
-	//private Button btnMyEbay = new Button (By.id("gh-eb-My"),"My ebay button");
 	private Button btnMyEbay = new Button (By.linkText("My eBay"),"My ebay button");
-	private Button btnSummary = new Button (By.linkText("Summary"),"My ebay button");
 	private Button btnMessages = new Button (By.linkText("Messages"),"Messages button");
 	private Button btnShoppingCart = new Button (By.id("gh-cart-i"),"Shopping Cart button");
-	private Button btnCategories = new Button (By.id("gh-cat"),"Categories button");
-	private Button btnBooksCategorie = new Button (By.xpath("//div[@class='header']//div[@id='gh-cat-box']//option[contains(@value,'267')]"),"Books categorie button");
-	//
 	private TextBox txbSearchBar = new TextBox(By.id("gh-ac"),"search bar");
-	
 	private Label lbusername = new Label(By.xpath("//span[contains(@class,'ds3pHTxt')]"),"text: You've signed out...");
 	
+	public void mouseOver(By by)
+	{
+		RemoteWebDriver driver = browser.getDriver();
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(by);
+      	actions.moveToElement(menuHoverLink);
+    	actions.perform();	
+	}
 	public void mouseOverElectronics()
 	{
 		final String labelLocatorOrId = "//a[contains(@class,'rt') and contains(.,'Electronics')]";
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath(labelLocatorOrId));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();
+		mouseOver(By.xpath(labelLocatorOrId));
 	}
-	
 	public void mouseOverMyEbay() {
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.linkText("My eBay"));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();	
+    	mouseOver(By.linkText("My eBay"));
 	}
 	public void mouseOverAccountMenu() {
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.id("gh-ug"));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();	
+    	mouseOver(By.id("gh-ug"));
 	}	
-	public void mouseOverBooks() {
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//div[@class='header']//div[@id='gh-cat-box']//option[contains(text(),'Books')]"));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();
+	public void clickCustomerSupport() {
+		btnCustomerSupport.click();
 	}
-	//Clicks
 	public void clickMyEbay() {
-		/*RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.linkText("My eBay"));
-    	actions.moveToElement(menuHoverLink);
-    	actions.perform();
-		browser.waitForPageToLoad();*/
 		btnMyEbay.click();
-	}
-	public void clickCategories() {
-		btnCategories.click();
-	}
-	public void clickBooksCategorie() {
-		clickCategories();
-		//browser.waitForPageToLoad();
-		btnBooksCategorie.isPresent(10);
-		//mouseOverBooks();
-		btnBooksCategorie.click();
-		//mouseOverBooks();
-		//browser.waitForPageToLoad();
 	}
 	public void clickShoppingCart() {
 		btnShoppingCart.click();
@@ -100,17 +63,13 @@ public class EbayMainForm extends BaseForm{
     	btnSignIn.click();
     }
     public void clickSignOut() {
-    	//btnMenu.click();
-    	//browser.waitForPageToLoad();
     	mouseOverAccountMenu();
     	btnSignOut.click();
     }   
-    //#Clicks
     public void searchFor(String text) {
     	txbSearchBar.type(text);
     	btnSearch.click();
     }
-    //Assert's
 	public void signInAssert(String username){
 		final Label lbusername = new Label(By.xpath("//a[contains(.,'"+username+"')]"),"username text");
 		assert(lbusername.isPresent());
@@ -124,11 +83,7 @@ public class EbayMainForm extends BaseForm{
 	public void signOutAssert(){
 		assert(lbusername.isPresent());
 	}
-	//#Assert's
-	
 	public EbayMainForm() {
-		
-		//By.xpath(formlocator)
 		super(By.id("gh-ac"), "Ebay main form");
 	}
 

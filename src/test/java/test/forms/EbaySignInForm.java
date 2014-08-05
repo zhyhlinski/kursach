@@ -1,28 +1,20 @@
 package test.forms;
 
 import org.openqa.selenium.By;
-
 import webdriver.BaseForm;
 import webdriver.elements.Button;
-import webdriver.elements.Label;
 import webdriver.elements.TextBox;
 
 public class EbaySignInForm extends BaseForm{
-	
-	
- 
-	private static String formlocator="//body[contains(@class, 'rdsgn')]";//body[starts-with(., 'sz')]
 	private TextBox tblogin = new TextBox(By.id("userid"),"login");
 	private TextBox tbpass = new TextBox(By.id("pass"),"password");
 	private Button btnSignIn = new Button (By.id("sgnBt"),"Sign in");
-	
 	public void signIn(String un,String pw)
 	{
 		fillUsername(un);
 		fillPassword(pw);
 		clickSignIn();
 	}
-	
 	public void fillUsername(String un)
 	{
 		tblogin.type(un);
@@ -36,14 +28,6 @@ public class EbaySignInForm extends BaseForm{
 		btnSignIn.click();
 	}
 	public EbaySignInForm() {
-		super(By.xpath(formlocator), "Ebay Sign in form");
+		super(By.id("userid"), "Ebay Sign in form");
 	}
-	
-	
-	
-	//gemul@alivance.com
-	//itransitiona1qa
-	//userid
-	//pass
-	//sgnBt
 }

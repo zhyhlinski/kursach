@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 import webdriver.elements.Label;
-import webdriver.elements.TextBox;
 
 public class EbayItemForm extends BaseForm{
 	private static String formlocator="//body/div[@id='Body']";
@@ -25,4 +24,4 @@ public class EbayItemForm extends BaseForm{
 	public EbayItemForm() {
 		super(By.xpath(formlocator), "Digital Cameras Results");
 	}
-}//isCartBtn_btn
+}

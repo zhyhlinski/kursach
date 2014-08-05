@@ -1,12 +1,11 @@
 package test;
-
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import test.forms.*;
 import webdriver.BaseTest;
 
-public class TestSearch extends BaseTest {
+public class TestGoToHowToPay extends BaseTest {
 	String site, login, pass, firstname, searchtext;
 	 @Test
 	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
@@ -26,10 +25,26 @@ public class TestSearch extends BaseTest {
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
-		emf.searchFor(searchtext);
+		emf.clickSignIn();
 		logger.step(4);
-		EbaySearchResultsForm ecr = new EbaySearchResultsForm();
+		EbaySignInForm esif = new EbaySignInForm();
 		logger.step(5);
-		ecr.searchAssert(searchtext);
+		esif.signIn(login, pass);
+		logger.step(6);
+		emf = new EbayMainForm();
+		logger.step(7);
+		emf.signInAssert(firstname);
+		logger.step(8);
+		emf.clickCustomerSupport();
+		logger.step(9);
+		EbayCustomerSupportForm ecsf = new EbayCustomerSupportForm();
+		logger.step(10);
+		ecsf.clickContactEbay();
+		logger.step(11);
+		ecsf.clickHowToPay();
+		logger.step(12);
+		ecsf.howToPayAssert();
+		
 	}
+	
 }
