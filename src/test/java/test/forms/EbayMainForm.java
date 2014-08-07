@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 
 //import com.steadystate.css.parser.Locatable;
 
+import org.openqa.selenium.remote.RemoteWebDriver;
+
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 import webdriver.elements.Label;

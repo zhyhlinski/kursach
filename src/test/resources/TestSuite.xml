@@ -7,10 +7,11 @@
 	<parameter name="pass" value="itransitiona1qa"/>
 	<parameter name="firstname" value="Kot"/>
 		<classes>
+			<class name="test.TestMenuOnMainForm" />
 			<class name="test.TestSignIn" />
 			<class name="test.TestSignOut" />
 			<class name="test.TestSearch" />
-			<class name="test.TestMenuOnMainForm" />
+			
 			<class name="test.TestGoToShoppingCart" />
 			<class name="test.TestGoToHowToPay" />	
 			<class name="test.TestGoToMyEbaySummary" />
