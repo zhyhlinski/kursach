@@ -21,7 +21,7 @@ public class EbayMainForm extends BaseForm{
 	private Button btnShoppingCart = new Button (By.id("gh-cart-i"),"Shopping Cart button");
 	private TextBox txbSearchBar = new TextBox(By.id("gh-ac"),"search bar");
 	private Label lbusername = new Label(By.xpath("//span[contains(@class,'ds3pHTxt')]"),"text: You've signed out...");
-	
+	private Button btnAccMenu = new Button (By.id("gh-ug"),"Account menu button");
 
 	public void mouseOverElectronics()
 	{
@@ -35,9 +35,6 @@ public class EbayMainForm extends BaseForm{
 	public void mouseOverMyEbay() {
     	mouseOver(By.linkText("My eBay"));
 	}
-	public void mouseOverAccountMenu() {
-    	mouseOver(By.id("gh-ug"));
-	}	
 	public void clickCustomerSupport() {
 		btnCustomerSupport.click();
 		browser.waitForPageToLoad();
@@ -66,7 +63,8 @@ public class EbayMainForm extends BaseForm{
     	browser.waitForPageToLoad();
     }
     public void clickSignOut() {
-    	mouseOverAccountMenu();
+    	btnAccMenu.click();
+    	btnSignOut.isPresent(10);
     	btnSignOut.click();
     	browser.waitForPageToLoad();
     }   

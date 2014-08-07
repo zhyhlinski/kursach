@@ -11,13 +11,10 @@ public class EbaySearchResultsForm extends BaseForm{
 	private Button btnFirstItem = new Button (By.xpath("//div/table[contains(@r,'1')]//div[@class='ittl']/h3/a"),"First item button");
 	private Button btnPriceShipHighest = new Button (By.linkText("Price + Shipping: highest first"),"Price + Shipping: highest first");
 	private Label lbSearchResult = new Label(By.xpath("//div[contains(@id,'cbrt')]//span[@class='kwcat']"),"results for text");
-	
-	public void mouseOverSortMenu()
-	{
-		mouseOver(By.xpath("//div[contains(@id,'Center')]//div[contains(@class,'cbrt')]//ul[@class='sel']/li"));
-	}
+	private Button btnSortMenu = new Button (By.xpath("//div[contains(@id,'Center')]//div[contains(@class,'cbrt')]//ul[@class='sel']/li"),"Sort menu button");
+
 	public void clickPriceShipHighest() {
-		mouseOverSortMenu();
+		btnSortMenu.click();
 		btnPriceShipHighest.isPresent(10);
 		btnPriceShipHighest.click();
     } 
