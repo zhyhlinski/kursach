@@ -1,11 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="1" total="10" passed="9">
   <reporter-output>
     <line>
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br>]]>
+    </line>
+    <line>
+      <![CDATA[-------------------------------------------------------------------------------------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 280msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Sign in form' appears in 164msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay main form' appears in 170msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Search button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Search Results' appears in 940msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 10 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 11 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 12 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Search Results' appears in 725msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 13 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 14 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Search Results' appears in 1063msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 15 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'First item button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 16 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Digital Cameras Results' appears in 196msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 17 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 18 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'Add to cart button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 19 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Shopping Cart' appears in 128msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 20 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 21 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'First item remove button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 22 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Shopping Cart' appears in 126msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 23 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br>]]>
+    </line>
+    <line>
+      <![CDATA[************************************************************<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[driver.quit...<br>]]>
+    </line>
+    <line>
+      <![CDATA[killing processes<br>]]>
+    </line>
+    <line>
+      <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3672, был завершен.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 1108, был завершен.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3852, был завершен.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 2952, был завершен.<br>]]>
+    </line>
+    <line>
+      <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3824, был завершен.<br>]]>
+    </line>
+    <line>
+      <![CDATA[browser driver was constructed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[-------------------------------------------------------------------------------<br>]]>
@@ -26,7 +209,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1355msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 169msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -38,7 +221,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 191msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 135msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -56,7 +239,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 231msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 127msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -71,7 +254,7 @@
       <![CDATA[--------==[ Step 9 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Customer Support' appears in 181msec<br>]]>
+      <![CDATA[Form 'Customer Support' appears in 118msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 10 ]==--------<br>]]>
@@ -83,10 +266,22 @@
       <![CDATA[--------==[ Step 11 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'How to pay for items' :: Clicking<br>]]>
+      <![CDATA[Form 'Customer Support' appears in 113msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 12 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'How to pay for items' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 13 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Customer Support' appears in 107msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 14 ]==--------<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -113,7 +308,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[----------------------------------------------------------------------------------------<br>]]>
@@ -134,7 +329,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1225msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 139msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -143,58 +338,76 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
+      <![CDATA[Button 'Cameras & Photo button' :: Clicking<br>]]>
+    </line>
+    <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Ebay Cameras form' appears in 121msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Cameras form' appears in 3724msec<br>]]>
+      <![CDATA[Button 'Digital Cameras button' :: Clicking<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'Digital Cameras button' :: Clicking<br>]]>
+      <![CDATA[Form 'Items from Digital Cameras' appears in 142msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 8 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Items from Digital Cameras' appears in 201msec<br>]]>
+      <![CDATA[Button 'Refine Results button' :: Clicking<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 9 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'Refine Results button' :: Clicking<br>]]>
+      <![CDATA[Form 'Search Results' appears in 147msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 10 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Search Results' appears in 222msec<br>]]>
+      <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 11 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
+      <![CDATA[Form 'Search Results' appears in 159msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 12 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Button 'First item button' :: Clicking<br>]]>
+      <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 13 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Digital Cameras Results' appears in 6567msec<br>]]>
+      <![CDATA[Form 'Search Results' appears in 295msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 14 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Button 'First item button' :: Clicking<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 15 ]==--------<br>]]>
+    </line>
+    <line>
+      <![CDATA[Form 'Digital Cameras Results' appears in 215msec<br>]]>
+    </line>
+    <line>
+      <![CDATA[--------==[ Step 16 ]==--------<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -221,7 +434,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[-------------------------------------------------------------------------<br>]]>
@@ -242,7 +455,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1289msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 142msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -257,7 +470,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Search Results' appears in 668msec<br>]]>
+      <![CDATA[Form 'Search Results' appears in 242msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -287,7 +500,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[-------------------------------------------------------------------------<br>]]>
@@ -308,7 +521,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1225msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 175msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -320,7 +533,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 191msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 136msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -338,7 +551,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 5793msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 186msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -368,7 +581,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[--------------------------------------------------------------------------<br>]]>
@@ -389,7 +602,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1345msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 450msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -401,7 +614,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 211msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 166msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -419,7 +632,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 5767msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 142msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -434,7 +647,7 @@
       <![CDATA[--------==[ Step 9 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay sign out form' appears in 1263msec<br>]]>
+      <![CDATA[Form 'Ebay sign out form' appears in 158msec<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -461,7 +674,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[-----------------------------------------------------------------------------------<br>]]>
@@ -482,7 +695,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1179msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 267msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -494,7 +707,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 283msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 147msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -512,7 +725,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 4665msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 176msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -527,7 +740,7 @@
       <![CDATA[--------==[ Step 9 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Shopping Cart' appears in 1175msec<br>]]>
+      <![CDATA[Form 'Ebay Shopping Cart' appears in 119msec<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -554,7 +767,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[------------------------------------------------------------------------------------<br>]]>
@@ -575,7 +788,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 3071msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 145msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -587,7 +800,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 3375msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 161msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -605,7 +818,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 7348msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 123msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -620,7 +833,7 @@
       <![CDATA[--------==[ Step 9 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'My Ebay Summary Form' appears in 1978msec<br>]]>
+      <![CDATA[Form 'My Ebay Summary Form' appears in 147msec<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -647,7 +860,7 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
       <![CDATA[-------------------------------------------------------------------------------<br>]]>
@@ -668,7 +881,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1200msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 1040msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -680,7 +893,7 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 212msec<br>]]>
+      <![CDATA[Form 'Ebay Sign in form' appears in 165msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -698,7 +911,7 @@
       <![CDATA[--------==[ Step 6 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 5647msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 226msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -716,7 +929,7 @@
       <![CDATA[--------==[ Step 10 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'My Ebay Messages Form' appears in 4542msec<br>]]>
+      <![CDATA[Form 'My Ebay Messages Form' appears in 134msec<br>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -743,163 +956,16 @@
       <![CDATA[browser driver was constructed<br>]]>
     </line>
     <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
+      <![CDATA[Browser 'chrome' ready...<br>]]>
     </line>
     <line>
-      <![CDATA[-------------------------------------------------------------------------------------<br>]]>
+      <![CDATA[---------------------------------------------------------------------------------<br>]]>
     </line>
     <line>
-      <![CDATA[=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br>]]>
+      <![CDATA[=====================  Test case: 'test.TestMenuOnMainForm' =====================<br>]]>
     </line>
     <line>
-      <![CDATA[-------------------------------------------------------------------------------------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Ebay main form' appears in 1226msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Ebay Sign in form' appears in 181msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 5 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Sign in' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 6 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Ebay main form' appears in 7389msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 7 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 8 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Search button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 9 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Search Results' appears in 1701msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 10 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 11 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 12 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 13 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'First item button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 14 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Digital Cameras Results' appears in 4146msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 15 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 16 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'Add to cart button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 17 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Form 'Ebay Shopping Cart' appears in 4285msec<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 18 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[Button 'First item remove button' :: Clicking<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------==[ Step 19 ]==--------<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[************************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br>]]>
-    </line>
-    <line>
-      <![CDATA[************************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
-    </line>
-    <line>
-      <![CDATA[driver.quit...<br>]]>
-    </line>
-    <line>
-      <![CDATA[killing processes<br>]]>
-    </line>
-    <line>
-      <![CDATA[browser driver was constructed<br>]]>
-    </line>
-    <line>
-      <![CDATA[Browser 'firefox' ready...<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
-    </line>
-    <line>
-      <![CDATA[=====================  Test case: 'test.TestHoverMenuOnMainForm' =====================<br>]]>
-    </line>
-    <line>
-      <![CDATA[--------------------------------------------------------------------------------------<br>]]>
+      <![CDATA[---------------------------------------------------------------------------------<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Preconditions ]==--------<br>]]>
@@ -911,7 +977,7 @@
       <![CDATA[--------==[ Step 2 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[Form 'Ebay main form' appears in 1301msec<br>]]>
+      <![CDATA[Form 'Ebay main form' appears in 245msec<br>]]>
     </line>
     <line>
       <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -920,19 +986,13 @@
       <![CDATA[--------==[ Step 4 ]==--------<br>]]>
     </line>
     <line>
-      <![CDATA[<br>]]>
+      <![CDATA[<div class="skipped"></div><br>]]>
     </line>
     <line>
-      <![CDATA[*************************************************************<br>]]>
+      <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
     </line>
     <line>
-      <![CDATA[***** Test case: 'test.TestHoverMenuOnMainForm' Passed! *****<br>]]>
-    </line>
-    <line>
-      <![CDATA[*************************************************************<br>]]>
-    </line>
-    <line>
-      <![CDATA[<br>]]>
+      <![CDATA[<div class="skipped"></div><br>]]>
     </line>
     <line>
       <![CDATA[driver.quit...<br>]]>
@@ -941,118 +1001,16 @@
       <![CDATA[killing processes<br>]]>
     </line>
   </reporter-output>
-  <suite name="Demo Test Plan" duration-ms="632001" started-at="2014-08-05T19:51:18Z" finished-at="2014-08-05T20:01:50Z">
+  <suite name="Demo Test Plan" duration-ms="338672" started-at="2014-08-07T12:33:45Z" finished-at="2014-08-07T12:39:24Z">
     <groups>
     </groups>
-    <test name="Functional Tests" duration-ms="632001" started-at="2014-08-05T19:51:18Z" finished-at="2014-08-05T20:01:50Z">
-      <class name="test.TestHoverMenuOnMainForm">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestHoverMenuOnMainForm@ebf121]" name="before" is-config="true" duration-ms="5560" started-at="2014-08-05T23:01:25Z" finished-at="2014-08-05T23:01:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestHoverMenuOnMainForm@ebf121]" name="readParams" duration-ms="18462" started-at="2014-08-05T23:01:31Z" finished-at="2014-08-05T23:01:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://www.ebay.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ipad 4g 32gb]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[zomox@walkmail.net]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[itransitiona1qa]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Kot]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.TestHoverMenuOnMainForm' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Ebay main form' appears in 1301msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[*************************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'test.TestHoverMenuOnMainForm' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[*************************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestHoverMenuOnMainForm@ebf121]" name="after" is-config="true" duration-ms="394" started-at="2014-08-05T23:01:49Z" finished-at="2014-08-05T23:01:50Z">
-          <reporter-output>
-            <line>
-              <![CDATA[driver.quit...<br>]]>
-            </line>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.TestHoverMenuOnMainForm -->
+    <test name="Functional Tests" duration-ms="338672" started-at="2014-08-07T12:33:45Z" finished-at="2014-08-07T12:39:24Z">
       <class name="test.TestGoToShoppingCart">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToShoppingCart@bec2]" name="before" is-config="true" duration-ms="5325" started-at="2014-08-05T22:55:39Z" finished-at="2014-08-05T22:55:45Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToShoppingCart@9b675b]" name="before" is-config="true" duration-ms="2949" started-at="2014-08-07T15:37:18Z" finished-at="2014-08-07T15:37:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -1061,11 +1019,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToShoppingCart@bec2]" name="readParams" duration-ms="36852" started-at="2014-08-05T22:55:45Z" finished-at="2014-08-05T22:56:22Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToShoppingCart@9b675b]" name="readParams" duration-ms="33147" started-at="2014-08-07T15:37:21Z" finished-at="2014-08-07T15:37:54Z">
           <params>
             <param index="0">
               <value>
@@ -1113,7 +1071,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1179msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 267msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -1125,7 +1083,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 283msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 147msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -1143,7 +1101,7 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 4665msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 176msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -1158,7 +1116,7 @@
               <![CDATA[--------==[ Step 9 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Shopping Cart' appears in 1175msec<br>]]>
+              <![CDATA[Form 'Ebay Shopping Cart' appears in 119msec<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -1177,7 +1135,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToShoppingCart@bec2]" name="after" is-config="true" duration-ms="439" started-at="2014-08-05T22:56:22Z" finished-at="2014-08-05T22:56:22Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToShoppingCart@9b675b]" name="after" is-config="true" duration-ms="1526" started-at="2014-08-07T15:37:54Z" finished-at="2014-08-07T15:37:56Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1189,11 +1147,11 @@
         </test-method> <!-- after -->
       </class> <!-- test.TestGoToShoppingCart -->
       <class name="test.TestSearch">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSearch@1aab39a]" name="before" is-config="true" duration-ms="5155" started-at="2014-08-05T22:53:04Z" finished-at="2014-08-05T22:53:09Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSearch@18d0462]" name="before" is-config="true" duration-ms="3023" started-at="2014-08-07T15:35:52Z" finished-at="2014-08-07T15:35:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -1202,11 +1160,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSearch@1aab39a]" name="readParams" duration-ms="33939" started-at="2014-08-05T22:53:09Z" finished-at="2014-08-05T22:53:43Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSearch@18d0462]" name="readParams" duration-ms="16627" started-at="2014-08-07T15:35:55Z" finished-at="2014-08-07T15:36:12Z">
           <params>
             <param index="0">
               <value>
@@ -1254,7 +1212,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1289msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 142msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -1269,7 +1227,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Search Results' appears in 668msec<br>]]>
+              <![CDATA[Form 'Search Results' appears in 242msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -1291,7 +1249,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSearch@1aab39a]" name="after" is-config="true" duration-ms="433" started-at="2014-08-05T22:53:43Z" finished-at="2014-08-05T22:53:43Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSearch@18d0462]" name="after" is-config="true" duration-ms="1531" started-at="2014-08-07T15:36:12Z" finished-at="2014-08-07T15:36:14Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1303,18 +1261,24 @@
         </test-method> <!-- after -->
       </class> <!-- test.TestSearch -->
       <class name="test.TestGoToHowToPay">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToHowToPay@23d1e7]" name="before" is-config="true" duration-ms="102" started-at="2014-08-05T22:51:18Z" finished-at="2014-08-05T22:51:18Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToHowToPay@973f09]" name="before" is-config="true" duration-ms="3293" started-at="2014-08-07T15:34:37Z" finished-at="2014-08-07T15:34:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToHowToPay@23d1e7]" name="readParams" duration-ms="53000" started-at="2014-08-05T22:51:18Z" finished-at="2014-08-05T22:52:11Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToHowToPay@973f09]" name="readParams" duration-ms="30609" started-at="2014-08-07T15:34:40Z" finished-at="2014-08-07T15:35:11Z">
           <params>
             <param index="0">
               <value>
@@ -1362,7 +1326,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1355msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 169msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -1374,7 +1338,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 191msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 135msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -1392,7 +1356,7 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 231msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 127msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -1407,7 +1371,7 @@
               <![CDATA[--------==[ Step 9 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Customer Support' appears in 181msec<br>]]>
+              <![CDATA[Form 'Customer Support' appears in 118msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 10 ]==--------<br>]]>
@@ -1419,10 +1383,22 @@
               <![CDATA[--------==[ Step 11 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'How to pay for items' :: Clicking<br>]]>
+              <![CDATA[Form 'Customer Support' appears in 113msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 12 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'How to pay for items' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 13 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Customer Support' appears in 107msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 14 ]==--------<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -1441,7 +1417,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToHowToPay@23d1e7]" name="after" is-config="true" duration-ms="465" started-at="2014-08-05T22:52:11Z" finished-at="2014-08-05T22:52:11Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToHowToPay@973f09]" name="after" is-config="true" duration-ms="1557" started-at="2014-08-07T15:35:11Z" finished-at="2014-08-07T15:35:12Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1453,11 +1429,11 @@
         </test-method> <!-- after -->
       </class> <!-- test.TestGoToHowToPay -->
       <class name="test.TestSignOut">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignOut@179928c]" name="before" is-config="true" duration-ms="6842" started-at="2014-08-05T22:54:21Z" finished-at="2014-08-05T22:54:28Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignOut@11ae4ae]" name="before" is-config="true" duration-ms="2959" started-at="2014-08-07T15:36:46Z" finished-at="2014-08-07T15:36:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -1466,11 +1442,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignOut@179928c]" name="readParams" duration-ms="70897" started-at="2014-08-05T22:54:28Z" finished-at="2014-08-05T22:55:39Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignOut@11ae4ae]" name="readParams" duration-ms="26903" started-at="2014-08-07T15:36:49Z" finished-at="2014-08-07T15:37:16Z">
           <params>
             <param index="0">
               <value>
@@ -1518,7 +1494,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1345msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 450msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -1530,7 +1506,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 211msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 166msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -1548,7 +1524,7 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 5767msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 142msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -1563,7 +1539,7 @@
               <![CDATA[--------==[ Step 9 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay sign out form' appears in 1263msec<br>]]>
+              <![CDATA[Form 'Ebay sign out form' appears in 158msec<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -1582,7 +1558,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignOut@179928c]" name="after" is-config="true" duration-ms="585" started-at="2014-08-05T22:55:39Z" finished-at="2014-08-05T22:55:39Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignOut@11ae4ae]" name="after" is-config="true" duration-ms="1559" started-at="2014-08-07T15:37:16Z" finished-at="2014-08-07T15:37:18Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1594,11 +1570,11 @@
         </test-method> <!-- after -->
       </class> <!-- test.TestSignOut -->
       <class name="test.TestGoToMessages">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToMessages@1a9ab54]" name="before" is-config="true" duration-ms="5291" started-at="2014-08-05T22:59:04Z" finished-at="2014-08-05T22:59:09Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToMessages@44fec1]" name="before" is-config="true" duration-ms="3016" started-at="2014-08-07T15:38:32Z" finished-at="2014-08-07T15:38:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -1607,11 +1583,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToMessages@1a9ab54]" name="readParams" duration-ms="44824" started-at="2014-08-05T22:59:09Z" finished-at="2014-08-05T22:59:54Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToMessages@44fec1]" name="readParams" duration-ms="28966" started-at="2014-08-07T15:38:35Z" finished-at="2014-08-07T15:39:03Z">
           <params>
             <param index="0">
               <value>
@@ -1659,7 +1635,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1200msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 1040msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -1671,7 +1647,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 212msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 165msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -1689,7 +1665,7 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 5647msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 226msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -1707,7 +1683,7 @@
               <![CDATA[--------==[ Step 10 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'My Ebay Messages Form' appears in 4542msec<br>]]>
+              <![CDATA[Form 'My Ebay Messages Form' appears in 134msec<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -1726,7 +1702,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToMessages@1a9ab54]" name="after" is-config="true" duration-ms="483" started-at="2014-08-05T22:59:54Z" finished-at="2014-08-05T22:59:54Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToMessages@44fec1]" name="after" is-config="true" duration-ms="1560" started-at="2014-08-07T15:39:03Z" finished-at="2014-08-07T15:39:05Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -1737,207 +1713,12 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.TestGoToMessages -->
-      <class name="test.TestAddToCartAndRemove">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestAddToCartAndRemove@2f2087]" name="before" is-config="true" duration-ms="6983" started-at="2014-08-05T22:59:54Z" finished-at="2014-08-05T23:00:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestAddToCartAndRemove@2f2087]" name="readParams" duration-ms="83480" started-at="2014-08-05T23:00:01Z" finished-at="2014-08-05T23:01:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://www.ebay.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ipad 4g 32gb]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[zomox@walkmail.net]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[itransitiona1qa]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Kot]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[-------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br>]]>
-            </line>
-            <line>
-              <![CDATA[-------------------------------------------------------------------------------------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Ebay main form' appears in 1226msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 181msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Ebay main form' appears in 7389msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 8 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Search button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 9 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Search Results' appears in 1701msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 10 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 11 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 12 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 13 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'First item button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 14 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Digital Cameras Results' appears in 4146msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 15 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 16 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'Add to cart button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 17 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Form 'Ebay Shopping Cart' appears in 4285msec<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 18 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[Button 'First item remove button' :: Clicking<br>]]>
-            </line>
-            <line>
-              <![CDATA[--------==[ Step 19 ]==--------<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-            <line>
-              <![CDATA[************************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br>]]>
-            </line>
-            <line>
-              <![CDATA[************************************************************<br>]]>
-            </line>
-            <line>
-              <![CDATA[<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestAddToCartAndRemove@2f2087]" name="after" is-config="true" duration-ms="552" started-at="2014-08-05T23:01:25Z" finished-at="2014-08-05T23:01:25Z">
-          <reporter-output>
-            <line>
-              <![CDATA[driver.quit...<br>]]>
-            </line>
-            <line>
-              <![CDATA[killing processes<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- after -->
-      </class> <!-- test.TestAddToCartAndRemove -->
       <class name="test.TestGoToMyEbaySummary">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToMyEbaySummary@2f4aea]" name="before" is-config="true" duration-ms="5030" started-at="2014-08-05T22:56:22Z" finished-at="2014-08-05T22:56:27Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestGoToMyEbaySummary@2ffe7]" name="before" is-config="true" duration-ms="2954" started-at="2014-08-07T15:37:56Z" finished-at="2014-08-07T15:37:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -1946,11 +1727,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToMyEbaySummary@2f4aea]" name="readParams" duration-ms="156233" started-at="2014-08-05T22:56:27Z" finished-at="2014-08-05T22:59:03Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestGoToMyEbaySummary@2ffe7]" name="readParams" duration-ms="31433" started-at="2014-08-07T15:37:58Z" finished-at="2014-08-07T15:38:30Z">
           <params>
             <param index="0">
               <value>
@@ -1998,7 +1779,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 3071msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 145msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -2010,7 +1791,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 3375msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 161msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -2028,7 +1809,7 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 7348msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 123msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
@@ -2043,7 +1824,7 @@
               <![CDATA[--------==[ Step 9 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'My Ebay Summary Form' appears in 1978msec<br>]]>
+              <![CDATA[Form 'My Ebay Summary Form' appears in 147msec<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -2062,7 +1843,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToMyEbaySummary@2f4aea]" name="after" is-config="true" duration-ms="563" started-at="2014-08-05T22:59:03Z" finished-at="2014-08-05T22:59:04Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestGoToMyEbaySummary@2ffe7]" name="after" is-config="true" duration-ms="1581" started-at="2014-08-07T15:38:30Z" finished-at="2014-08-07T15:38:32Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -2073,25 +1854,19 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.TestGoToMyEbaySummary -->
-      <class name="test.TestSignIn">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignIn@12a45c9]" name="before" is-config="true" duration-ms="5500" started-at="2014-08-05T22:53:43Z" finished-at="2014-08-05T22:53:49Z">
+      <class name="test.TestAddToCartAndRemove">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestAddToCartAndRemove@1b5c3ba]" name="before" is-config="true" duration-ms="147" started-at="2014-08-07T15:33:45Z" finished-at="2014-08-07T15:33:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[browser driver was constructed<br>]]>
-            </line>
-            <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignIn@12a45c9]" name="readParams" duration-ms="32034" started-at="2014-08-05T22:53:49Z" finished-at="2014-08-05T22:54:21Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestAddToCartAndRemove@1b5c3ba]" name="readParams" duration-ms="48735" started-at="2014-08-07T15:33:46Z" finished-at="2014-08-07T15:34:34Z">
           <params>
             <param index="0">
               <value>
@@ -2121,13 +1896,13 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[-------------------------------------------------------------------------<br>]]>
+              <![CDATA[-------------------------------------------------------------------------------------<br>]]>
             </line>
             <line>
-              <![CDATA[=====================  Test case: 'test.TestSignIn' =====================<br>]]>
+              <![CDATA[=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br>]]>
             </line>
             <line>
-              <![CDATA[-------------------------------------------------------------------------<br>]]>
+              <![CDATA[-------------------------------------------------------------------------------------<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Preconditions ]==--------<br>]]>
@@ -2139,7 +1914,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1225msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 280msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -2151,7 +1926,7 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Sign in form' appears in 191msec<br>]]>
+              <![CDATA[Form 'Ebay Sign in form' appears in 164msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
@@ -2169,29 +1944,116 @@
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 5793msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 170msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
             </line>
             <line>
+              <![CDATA[--------==[ Step 8 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Search button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 9 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Search Results' appears in 940msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 10 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 11 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 12 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Search Results' appears in 725msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 13 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 14 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Search Results' appears in 1063msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 15 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'First item button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 16 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Digital Cameras Results' appears in 196msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 17 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 18 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Add to cart button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 19 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Shopping Cart' appears in 128msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 20 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 21 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'First item remove button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 22 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Shopping Cart' appears in 126msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 23 ]==--------<br>]]>
+            </line>
+            <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[************************************************<br>]]>
+              <![CDATA[************************************************************<br>]]>
             </line>
             <line>
-              <![CDATA[***** Test case: 'test.TestSignIn' Passed! *****<br>]]>
+              <![CDATA[***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br>]]>
             </line>
             <line>
-              <![CDATA[************************************************<br>]]>
+              <![CDATA[************************************************************<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignIn@12a45c9]" name="after" is-config="true" duration-ms="442" started-at="2014-08-05T22:54:21Z" finished-at="2014-08-05T22:54:21Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestAddToCartAndRemove@1b5c3ba]" name="after" is-config="true" duration-ms="2607" started-at="2014-08-07T15:34:34Z" finished-at="2014-08-07T15:34:37Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -2199,15 +2061,30 @@
             <line>
               <![CDATA[killing processes<br>]]>
             </line>
+            <line>
+              <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3672, был завершен.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 1108, был завершен.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3852, был завершен.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 2952, был завершен.<br>]]>
+            </line>
+            <line>
+              <![CDATA[Успешно: Процесс "chrome.exe", с идентификатором 3824, был завершен.<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- test.TestSignIn -->
+      </class> <!-- test.TestAddToCartAndRemove -->
       <class name="test.TestFindFirstCameraResult">
-        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestFindFirstCameraResult@120d1c0]" name="before" is-config="true" duration-ms="5568" started-at="2014-08-05T22:52:11Z" finished-at="2014-08-05T22:52:17Z">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestFindFirstCameraResult@9ebbfd]" name="before" is-config="true" duration-ms="3029" started-at="2014-08-07T15:35:12Z" finished-at="2014-08-07T15:35:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@11b2b6f]]>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
               </value>
             </param>
           </params>
@@ -2216,11 +2093,11 @@
               <![CDATA[browser driver was constructed<br>]]>
             </line>
             <line>
-              <![CDATA[Browser 'firefox' ready...<br>]]>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestFindFirstCameraResult@120d1c0]" name="readParams" duration-ms="46015" started-at="2014-08-05T22:52:17Z" finished-at="2014-08-05T22:53:03Z">
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestFindFirstCameraResult@9ebbfd]" name="readParams" duration-ms="35570" started-at="2014-08-07T15:35:15Z" finished-at="2014-08-07T15:35:51Z">
           <params>
             <param index="0">
               <value>
@@ -2268,7 +2145,7 @@
               <![CDATA[--------==[ Step 2 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay main form' appears in 1225msec<br>]]>
+              <![CDATA[Form 'Ebay main form' appears in 139msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 3 ]==--------<br>]]>
@@ -2277,58 +2154,76 @@
               <![CDATA[--------==[ Step 4 ]==--------<br>]]>
             </line>
             <line>
+              <![CDATA[Button 'Cameras & Photo button' :: Clicking<br>]]>
+            </line>
+            <line>
               <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Cameras form' appears in 121msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 6 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Ebay Cameras form' appears in 3724msec<br>]]>
+              <![CDATA[Button 'Digital Cameras button' :: Clicking<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 7 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'Digital Cameras button' :: Clicking<br>]]>
+              <![CDATA[Form 'Items from Digital Cameras' appears in 142msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 8 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Items from Digital Cameras' appears in 201msec<br>]]>
+              <![CDATA[Button 'Refine Results button' :: Clicking<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 9 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'Refine Results button' :: Clicking<br>]]>
+              <![CDATA[Form 'Search Results' appears in 147msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 10 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Search Results' appears in 222msec<br>]]>
+              <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 11 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'Buy It Now button' :: Clicking<br>]]>
+              <![CDATA[Form 'Search Results' appears in 159msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 12 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Button 'First item button' :: Clicking<br>]]>
+              <![CDATA[Button 'Price + Shipping: highest first' :: Clicking<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 13 ]==--------<br>]]>
             </line>
             <line>
-              <![CDATA[Form 'Digital Cameras Results' appears in 6567msec<br>]]>
+              <![CDATA[Form 'Search Results' appears in 295msec<br>]]>
             </line>
             <line>
               <![CDATA[--------==[ Step 14 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'First item button' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 15 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Digital Cameras Results' appears in 215msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 16 ]==--------<br>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -2347,7 +2242,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- readParams -->
-        <test-method status="PASS" signature="after()[pri:0, instance:test.TestFindFirstCameraResult@120d1c0]" name="after" is-config="true" duration-ms="533" started-at="2014-08-05T22:53:03Z" finished-at="2014-08-05T22:53:04Z">
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestFindFirstCameraResult@9ebbfd]" name="after" is-config="true" duration-ms="1463" started-at="2014-08-07T15:35:51Z" finished-at="2014-08-07T15:35:52Z">
           <reporter-output>
             <line>
               <![CDATA[driver.quit...<br>]]>
@@ -2358,6 +2253,265 @@
           </reporter-output>
         </test-method> <!-- after -->
       </class> <!-- test.TestFindFirstCameraResult -->
+      <class name="test.TestMenuOnMainForm">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestMenuOnMainForm@1aba8cc]" name="before" is-config="true" duration-ms="3159" started-at="2014-08-07T15:39:05Z" finished-at="2014-08-07T15:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestMenuOnMainForm@1aba8cc]" name="readParams" duration-ms="14359" started-at="2014-08-07T15:39:08Z" finished-at="2014-08-07T15:39:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.ebay.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ipad 4g 32gb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zomox@walkmail.net]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[itransitiona1qa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kot]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError
+	at test.forms.EbayMainForm.iphoneAssert(EbayMainForm.java:86)
+	at test.TestMenuOnMainForm.runTest(TestMenuOnMainForm.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:43)
+	at webdriver.BaseTest.readParams(BaseTest.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.TestMenuOnMainForm' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[---------------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 245msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped"></div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br>]]>
+            </line>
+            <line>
+              <![CDATA[<div class="skipped"></div><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestMenuOnMainForm@1aba8cc]" name="after" is-config="true" duration-ms="1481" started-at="2014-08-07T15:39:23Z" finished-at="2014-08-07T15:39:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.TestMenuOnMainForm -->
+      <class name="test.TestSignIn">
+        <test-method status="PASS" signature="before(org.testng.ITestContext)[pri:0, instance:test.TestSignIn@190ec59]" name="before" is-config="true" duration-ms="3065" started-at="2014-08-07T15:36:14Z" finished-at="2014-08-07T15:36:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9f5bd8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[browser driver was constructed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Browser 'chrome' ready...<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="readParams(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TestSignIn@190ec59]" name="readParams" duration-ms="28222" started-at="2014-08-07T15:36:17Z" finished-at="2014-08-07T15:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.ebay.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ipad 4g 32gb]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[zomox@walkmail.net]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[itransitiona1qa]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kot]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[=====================  Test case: 'test.TestSignIn' =====================<br>]]>
+            </line>
+            <line>
+              <![CDATA[-------------------------------------------------------------------------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Preconditions ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 1 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 2 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 175msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 3 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 4 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay Sign in form' appears in 136msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 5 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'login' :: Typing 'zomox@walkmail.net'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Text Field 'password' :: Typing 'itransitiona1qa'<br>]]>
+            </line>
+            <line>
+              <![CDATA[Button 'Sign in' :: Clicking<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 6 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[Form 'Ebay main form' appears in 186msec<br>]]>
+            </line>
+            <line>
+              <![CDATA[--------==[ Step 7 ]==--------<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[***** Test case: 'test.TestSignIn' Passed! *****<br>]]>
+            </line>
+            <line>
+              <![CDATA[************************************************<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readParams -->
+        <test-method status="PASS" signature="after()[pri:0, instance:test.TestSignIn@190ec59]" name="after" is-config="true" duration-ms="1577" started-at="2014-08-07T15:36:45Z" finished-at="2014-08-07T15:36:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[driver.quit...<br>]]>
+            </line>
+            <line>
+              <![CDATA[killing processes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- test.TestSignIn -->
     </test> <!-- Functional Tests -->
   </suite> <!-- Demo Test Plan -->
 </testng-results>

@@ -1,9 +1,6 @@
 package test.forms;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 import webdriver.elements.Label;
@@ -15,14 +12,10 @@ public class EbaySearchResultsForm extends BaseForm{
 	private Button btnPriceShipHighest = new Button (By.linkText("Price + Shipping: highest first"),"Price + Shipping: highest first");
 	private Label lbSearchResult = new Label(By.xpath("//div[contains(@id,'cbrt')]//span[@class='kwcat']"),"results for text");
 	
-	public void mouseOverSortMenu() {
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//div[contains(@id,'Center')]//div[contains(@class,'cbrt')]//ul[@class='sel']/li"));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();	
-	}	
-	
+	public void mouseOverSortMenu()
+	{
+		mouseOver(By.xpath("//div[contains(@id,'Center')]//div[contains(@class,'cbrt')]//ul[@class='sel']/li"));
+	}
 	public void clickPriceShipHighest() {
 		mouseOverSortMenu();
 		btnPriceShipHighest.isPresent(10);
@@ -34,9 +27,11 @@ public class EbaySearchResultsForm extends BaseForm{
 	}
 	public void clickFirstItem() {
 		btnFirstItem.click();
+		browser.waitForPageToLoad();
     } 
 	public void clickBuyItNow() {
 		btnBuyItNow.click();
+		browser.waitForPageToLoad();
     } 
 	
 	public void searchAssert(String search_str){

@@ -26,6 +26,7 @@ public class EbaySignInForm extends BaseForm{
 	public void clickSignIn()
 	{
 		btnSignIn.click();
+		browser.waitForPageToLoad();
 	}
 	public EbaySignInForm() {
 		super(By.id("userid"), "Ebay Sign in form");

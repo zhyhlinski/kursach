@@ -1,9 +1,6 @@
 package test.forms;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 //import com.steadystate.css.parser.Locatable;
 
@@ -25,14 +22,7 @@ public class EbayMainForm extends BaseForm{
 	private TextBox txbSearchBar = new TextBox(By.id("gh-ac"),"search bar");
 	private Label lbusername = new Label(By.xpath("//span[contains(@class,'ds3pHTxt')]"),"text: You've signed out...");
 	
-	public void mouseOver(By by)
-	{
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(by);
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();	
-	}
+
 	public void mouseOverElectronics()
 	{
 		final String labelLocatorOrId = "//a[contains(@class,'rt') and contains(.,'Electronics')]";
@@ -50,34 +40,40 @@ public class EbayMainForm extends BaseForm{
 	}	
 	public void clickCustomerSupport() {
 		btnCustomerSupport.click();
+		browser.waitForPageToLoad();
 	}
 	public void clickMyEbay() {
 		btnMyEbay.click();
+		browser.waitForPageToLoad();
 	}
 	public void clickShoppingCart() {
 		btnShoppingCart.click();
+		browser.waitForPageToLoad();
 	}
 	public void clickMessages() {
+		btnMessages.isPresent(10);
 		btnMessages.click();
+		browser.waitForPageToLoad();
 	}
 	public void clickCameras() {
 		btnCameras.isPresent(10);
-		RemoteWebDriver driver = browser.getDriver();
-		driver.findElementByXPath("//a[contains(@title,'Electronics') and contains(.,'Cameras & Photo')]").click();
-		//mouseOverCameras();
-		//
-		//btnCameras.click();
+		mouseOverCameras();
+		btnCameras.click();
+		browser.waitForPageToLoad();
 	}
     public void clickSignIn() {
     	btnSignIn.click();
+    	browser.waitForPageToLoad();
     }
     public void clickSignOut() {
     	mouseOverAccountMenu();
     	btnSignOut.click();
+    	browser.waitForPageToLoad();
     }   
     public void searchFor(String text) {
     	txbSearchBar.type(text);
     	btnSearch.click();
+    	browser.waitForPageToLoad();
     }
 	public void signInAssert(String username){
 		final Label lbusername = new Label(By.xpath("//a[contains(.,'"+username+"')]"),"username text");

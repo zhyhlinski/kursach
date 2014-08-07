@@ -15,6 +15,7 @@ public class EbayItemForm extends BaseForm{
 	public void clickAddToCart() {
 		assert(btnAddToCart.isPresent());
 		btnAddToCart.click();
+		browser.waitForPageToLoad();
 	}
 	public void firstItemAssert(String itemName)
 	{

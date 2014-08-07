@@ -1,28 +1,14 @@
 package test;
 
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
 import test.forms.*;
 import webdriver.BaseTest;
 
 public class TestAddToCartAndRemove extends BaseTest {
-	String site, login, pass, firstname, searchtext;
-	 @Test
-	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
-	 public void readParams(String siteUrl, String searchtext, String login, String pass, String firstname) throws Throwable {
-	  this.site = siteUrl;
-	  this.login = login;
-	  this.pass = pass;
-	  this.searchtext = searchtext;
-	  this.firstname = firstname;
-	  xTest();
-	 }
-	 @Override
-	 @Parameters()
 	public void runTest() {
 		String finame;
 		logger.step(1);
 		browser.navigate(site);
+		browser.waitForPageToLoad();
 		logger.step(2);
 		EbayMainForm emf = new EbayMainForm();
 		logger.step(3);
@@ -44,21 +30,29 @@ public class TestAddToCartAndRemove extends BaseTest {
 		logger.step(11);
 		ecr.clickBuyItNow();
 		logger.step(12);
-		ecr.clickPriceShipHighest();
-		finame = ecr.getFirstItemName();
+		ecr = new EbaySearchResultsForm();
 		logger.step(13);
-		ecr.clickFirstItem();
+		ecr.clickPriceShipHighest();
 		logger.step(14);
-		EbayItemForm ecfif = new EbayItemForm();
+		ecr = new EbaySearchResultsForm();
 		logger.step(15);
-		ecfif.firstItemAssert(finame);
+		finame = ecr.getFirstItemName();
+		ecr.clickFirstItem();
 		logger.step(16);
-		ecfif.clickAddToCart();
+		EbayItemForm ecfif = new EbayItemForm();
 		logger.step(17);
-		EbayShoppingCartForm escf = new EbayShoppingCartForm();
+		ecfif.firstItemAssert(finame);
 		logger.step(18);
-		escf.clickRemove();
+		ecfif.clickAddToCart();
 		logger.step(19);
+		EbayShoppingCartForm escf = new EbayShoppingCartForm();
+		logger.step(20);
+		escf.nameOfItemAssert(finame);
+		logger.step(21);
+		escf.clickRemove();
+		logger.step(22);
+		escf = new EbayShoppingCartForm();
+		logger.step(23);
 		escf.emptyShoppingCartAssert();
 	}
 }

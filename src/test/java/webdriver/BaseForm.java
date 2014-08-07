@@ -1,7 +1,11 @@
 package webdriver;
 
 import java.util.Date;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
 import webdriver.elements.Label;
@@ -101,7 +105,14 @@ public abstract class BaseForm extends BaseEntity {
 
     
 	
-
+	public void mouseOver(By by)
+	{
+		RemoteWebDriver driver = browser.getDriver();
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(by);
+      	actions.moveToElement(menuHoverLink);
+    	actions.perform();	
+	}
 	
 
 

@@ -2,24 +2,78 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Demo Test Plan]">
   <parameter name="siteUrl" value="http://www.ebay.com/"/>
-  <parameter name="searchtextblog" value="ipod 32gb 5g"/>
-  <parameter name="login" value="itransitiona1qa"/>
+  <parameter name="login" value="zomox@walkmail.net"/>
+  <parameter name="searchtext" value="ipad 4g 32gb"/>
   <parameter name="firstname" value="Kot"/>
-  <parameter name="pass" value="zomox@walkmail.net"/>
+  <parameter name="pass" value="itransitiona1qa"/>
   <test name="Functional Tests(failed)">
     <parameter name="siteUrl" value="http://www.ebay.com/"/>
-    <parameter name="searchtextblog" value="ipod 32gb 5g"/>
-    <parameter name="login" value="itransitiona1qa"/>
+    <parameter name="login" value="zomox@walkmail.net"/>
     <parameter name="firstname" value="Kot"/>
-    <parameter name="pass" value="zomox@walkmail.net"/>
+    <parameter name="searchtext" value="ipad 4g 32gb"/>
+    <parameter name="pass" value="itransitiona1qa"/>
     <classes>
+      <class name="test.TestGoToMyEbaySummary">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestGoToMyEbaySummary -->
+      <class name="test.TestGoToHowToPay">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestGoToHowToPay -->
+      <class name="test.TestMenuOnMainForm">
+        <methods>
+          <include name="readParams" invocation-numbers="0"/>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestMenuOnMainForm -->
+      <class name="test.TestAddToCartAndRemove">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestAddToCartAndRemove -->
+      <class name="test.TestGoToMessages">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestGoToMessages -->
       <class name="test.TestSignIn">
         <methods>
-          <include name="readParams"/>
           <include name="after"/>
           <include name="before"/>
         </methods>
       </class> <!-- test.TestSignIn -->
+      <class name="test.TestSearch">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestSearch -->
+      <class name="test.TestSignOut">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestSignOut -->
+      <class name="test.TestGoToShoppingCart">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestGoToShoppingCart -->
+      <class name="test.TestFindFirstCameraResult">
+        <methods>
+          <include name="after"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- test.TestFindFirstCameraResult -->
     </classes>
   </test> <!-- Functional Tests(failed) -->
 </suite> <!-- Failed suite [Demo Test Plan] -->

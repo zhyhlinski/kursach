@@ -1,5 +1,6 @@
 package webdriver;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 /**
@@ -11,13 +12,29 @@ public abstract class BaseTest extends BaseEntity{
  /**
   * To override.
   */
+	public String site, login, pass, firstname, searchtext;
+	@Test
+	 @Parameters({"siteUrl", "searchtext","login","pass","firstname"})
+	 public void readParams(String siteUrl, String searchtext, String login, String pass, String firstname) throws Throwable {
+	  this.site = siteUrl;
+	  this.login = login;
+	  this.pass = pass;
+	  this.searchtext = searchtext;
+	  this.firstname = firstname;
+	  xTest();
+	 }
+	
+	 @Parameters()
+	
  public abstract void runTest();
 
  /**
   * Test
   * @throws Throwable Throwable
   */
- //@Test
+ 
+ 
+
  public void xTest() throws Throwable {
   Class<? extends BaseTest> currentClass = this.getClass();
   

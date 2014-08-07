@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Demo_Test_Plan">
-              <span class="suite-name border-passed">Demo Test Plan</span>
+              <span class="suite-name border-failed">Demo Test Plan</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods,   10 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Demo_Test_Plan" class="hide-methods failed suite-Demo_Test_Plan"> (hide)</a> <!-- hide-methods failed suite-Demo_Test_Plan -->
+                      <a href="#" panel-name="suite-Demo_Test_Plan" class="show-methods failed suite-Demo_Test_Plan"> (show)</a> <!-- show-methods failed suite-Demo_Test_Plan -->
+                    </span>
+                    <div class="method-list-content failed suite-Demo_Test_Plan">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestMenuOnMainForm" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Demo_Test_Plan -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,22 +115,7 @@
                     <div class="method-list-content passed suite-Demo_Test_Plan">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToMessages" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestFindFirstCameraResult" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestAddToCartAndRemove" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestHoverMenuOnMainForm" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToHowToPay" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -126,7 +125,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToMyEbaySummary" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestSearch" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestFindFirstCameraResult" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToMessages" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,17 +145,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestAddToCartAndRemove" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToMyEbaySummary" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToShoppingCart" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestGoToHowToPay" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo_Test_Plan" title="test.TestSearch" hash-for-method="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Demo_Test_Plan -->
@@ -161,10 +170,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Demo_Test_Plan" class="panel Demo_Test_Plan">
-          <div class="suite-Demo_Test_Plan-class-passed">
+          <div class="suite-Demo_Test_Plan-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.TestSignOut</span>
+              <img src="failed.png"/>
+              <span class="class-name">test.TestMenuOnMainForm</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -173,78 +182,21 @@
                   </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
                   <span class="method-name">readParams</span>
                   <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at test.forms.EbayMainForm.iphoneAssert(EbayMainForm.java:86)
+	at test.TestMenuOnMainForm.runTest(TestMenuOnMainForm.java:15)
+	at webdriver.BaseTest.xTest(BaseTest.java:43)
+	at webdriver.BaseTest.readParams(BaseTest.java:24)
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          </div> <!-- suite-Demo_Test_Plan-class-failed -->
           <div class="suite-Demo_Test_Plan-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.TestSearch</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
-                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
-                  <span class="method-name">readParams</span>
-                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
-          <div class="suite-Demo_Test_Plan-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.TestFindFirstCameraResult</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
-                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
-                  <span class="method-name">readParams</span>
-                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
-          <div class="suite-Demo_Test_Plan-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.TestAddToCartAndRemove</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
-                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
-                  <span class="method-name">readParams</span>
-                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
-          <div class="suite-Demo_Test_Plan-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.TestGoToShoppingCart</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
-                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
-                  <span class="method-name">readParams</span>
-                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Demo_Test_Plan-class-passed -->
-          <div class="suite-Demo_Test_Plan-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.TestHoverMenuOnMainForm</span>
+              <span class="class-name">test.TestGoToMyEbaySummary</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -276,6 +228,22 @@
           <div class="suite-Demo_Test_Plan-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">test.TestAddToCartAndRemove</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
+                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
+                  <span class="method-name">readParams</span>
+                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">test.TestGoToMessages</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -292,7 +260,7 @@
           <div class="suite-Demo_Test_Plan-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.TestGoToMyEbaySummary</span>
+              <span class="class-name">test.TestSignIn</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -308,7 +276,55 @@
           <div class="suite-Demo_Test_Plan-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.TestSignIn</span>
+              <span class="class-name">test.TestSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
+                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
+                  <span class="method-name">readParams</span>
+                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestGoToShoppingCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
+                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
+                  <span class="method-name">readParams</span>
+                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestSignOut</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)">
+                  </a> <!-- readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot) -->
+                  <span class="method-name">readParams</span>
+                  <span class="parameters">(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Demo_Test_Plan-class-passed -->
+          <div class="suite-Demo_Test_Plan-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.TestFindFirstCameraResult</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -338,6 +354,7 @@
     &lt;parameter name=&quot;searchtext&quot; value=&quot;ipad 4g 32gb&quot;/&gt;
     &lt;parameter name=&quot;pass&quot; value=&quot;itransitiona1qa&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;test.TestAddToCartAndRemove&quot;/&gt;
       &lt;class name=&quot;test.TestGoToHowToPay&quot;/&gt;
       &lt;class name=&quot;test.TestFindFirstCameraResult&quot;/&gt;
       &lt;class name=&quot;test.TestSearch&quot;/&gt;
@@ -346,8 +363,7 @@
       &lt;class name=&quot;test.TestGoToShoppingCart&quot;/&gt;
       &lt;class name=&quot;test.TestGoToMyEbaySummary&quot;/&gt;
       &lt;class name=&quot;test.TestGoToMessages&quot;/&gt;
-      &lt;class name=&quot;test.TestAddToCartAndRemove&quot;/&gt;
-      &lt;class name=&quot;test.TestHoverMenuOnMainForm&quot;/&gt;
+      &lt;class name=&quot;test.TestMenuOnMainForm&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Functional Tests --&gt;
 &lt;/suite&gt; &lt;!-- Demo Test Plan --&gt;
@@ -390,49 +406,49 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'readParams')
-data.setCell(0, 2, 'test.TestGoToMyEbaySummary')
-data.setCell(0, 3, 156233);
+data.setCell(0, 2, 'test.TestAddToCartAndRemove')
+data.setCell(0, 3, 48735);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'readParams')
-data.setCell(1, 2, 'test.TestAddToCartAndRemove')
-data.setCell(1, 3, 83480);
+data.setCell(1, 2, 'test.TestFindFirstCameraResult')
+data.setCell(1, 3, 35570);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'readParams')
-data.setCell(2, 2, 'test.TestSignOut')
-data.setCell(2, 3, 70897);
+data.setCell(2, 2, 'test.TestGoToShoppingCart')
+data.setCell(2, 3, 33147);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'readParams')
-data.setCell(3, 2, 'test.TestGoToHowToPay')
-data.setCell(3, 3, 53000);
+data.setCell(3, 2, 'test.TestGoToMyEbaySummary')
+data.setCell(3, 3, 31433);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'readParams')
-data.setCell(4, 2, 'test.TestFindFirstCameraResult')
-data.setCell(4, 3, 46015);
+data.setCell(4, 2, 'test.TestGoToHowToPay')
+data.setCell(4, 3, 30609);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'readParams')
 data.setCell(5, 2, 'test.TestGoToMessages')
-data.setCell(5, 3, 44824);
+data.setCell(5, 3, 28966);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'readParams')
-data.setCell(6, 2, 'test.TestGoToShoppingCart')
-data.setCell(6, 3, 36852);
+data.setCell(6, 2, 'test.TestSignIn')
+data.setCell(6, 3, 28222);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'readParams')
-data.setCell(7, 2, 'test.TestSearch')
-data.setCell(7, 3, 33939);
+data.setCell(7, 2, 'test.TestSignOut')
+data.setCell(7, 3, 26903);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'readParams')
-data.setCell(8, 2, 'test.TestSignIn')
-data.setCell(8, 3, 32034);
+data.setCell(8, 2, 'test.TestSearch')
+data.setCell(8, 3, 16627);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'readParams')
-data.setCell(9, 2, 'test.TestHoverMenuOnMainForm')
-data.setCell(9, 3, 18462);
+data.setCell(9, 2, 'test.TestMenuOnMainForm')
+data.setCell(9, 3, 14359);
 window.suiteTableData['Demo_Test_Plan']= { tableData: data, tableDiv: 'times-div-Demo_Test_Plan'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Demo_Test_Plan">
               </div> <!-- times-div-Demo_Test_Plan -->
             </div> <!-- times-div -->
@@ -447,138 +463,40 @@ return data;
               <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToMessages' =====================<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToHowToPay' =====================<br></span>
                 <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
                 <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1200msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 169msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
                 <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 212msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 135msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
                 <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
                 <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
                 <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 5647msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 127msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Customer Support' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Messages button' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Customer Support' appears in 118msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My Ebay Messages Form' appears in 4542msec<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">******************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestGoToMessages' Passed! *****<br></span>
-                <span class="reporter-method-output">******************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">----------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestFindFirstCameraResult' =====================<br></span>
-                <span class="reporter-method-output">----------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1225msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Cameras form' appears in 3724msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Digital Cameras button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Items from Digital Cameras' appears in 201msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Refine Results button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Search Results' appears in 222msec<br></span>
+                <span class="reporter-method-output">Button 'Contact eBay' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 11 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Buy It Now button' :: Clicking<br></span>
+                <span class="reporter-method-output">Form 'Customer Support' appears in 113msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 12 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'First item button' :: Clicking<br></span>
+                <span class="reporter-method-output">Button 'How to pay for items' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 13 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Digital Cameras Results' appears in 6567msec<br></span>
+                <span class="reporter-method-output">Form 'Customer Support' appears in 107msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 14 ]==--------<br></span>
                 <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">***************************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestFindFirstCameraResult' Passed! *****<br></span>
-                <span class="reporter-method-output">***************************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">-------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br></span>
-                <span class="reporter-method-output">-------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1226msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 181msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 7389msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br></span>
-                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Search Results' appears in 1701msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 11 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Buy It Now button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 12 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Price + Shipping: highest first' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 13 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'First item button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 14 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Digital Cameras Results' appears in 4146msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 15 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 16 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Add to cart button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 17 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Shopping Cart' appears in 4285msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 18 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'First item remove button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 19 ]==--------<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">************************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br></span>
-                <span class="reporter-method-output">************************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">--------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestHoverMenuOnMainForm' =====================<br></span>
-                <span class="reporter-method-output">--------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1301msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">*************************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestHoverMenuOnMainForm' Passed! *****<br></span>
-                <span class="reporter-method-output">*************************************************************<br></span>
+                <span class="reporter-method-output">******************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestGoToHowToPay' Passed! *****<br></span>
+                <span class="reporter-method-output">******************************************************<br></span>
                 <span class="reporter-method-output"><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -591,155 +509,26 @@ return data;
                 <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1345msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 450msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
                 <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 211msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 166msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
                 <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
                 <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
                 <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 5767msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 142msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
                 <span class="reporter-method-output">Button 'Sign out' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay sign out form' appears in 1263msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay sign out form' appears in 158msec<br></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output">*************************************************<br></span>
                 <span class="reporter-method-output">***** Test case: 'test.TestSignOut' Passed! *****<br></span>
                 <span class="reporter-method-output">*************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToMyEbaySummary' =====================<br></span>
-                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 3071msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 3375msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 7348msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'My ebay button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'My Ebay Summary Form' appears in 1978msec<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">***********************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestGoToMyEbaySummary' Passed! *****<br></span>
-                <span class="reporter-method-output">***********************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">-------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestSignIn' =====================<br></span>
-                <span class="reporter-method-output">-------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1225msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 191msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 5793msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestSignIn' Passed! *****<br></span>
-                <span class="reporter-method-output">************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToShoppingCart' =====================<br></span>
-                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1179msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 283msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 4665msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Shopping Cart button' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Shopping Cart' appears in 1175msec<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">**********************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestGoToShoppingCart' Passed! *****<br></span>
-                <span class="reporter-method-output">**********************************************************<br></span>
-                <span class="reporter-method-output"><br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToHowToPay' =====================<br></span>
-                <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
-                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1355msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 191msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
-                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
-                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
-                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 231msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
-                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Customer Support' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Customer Support' appears in 181msec<br></span>
-                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'Contact eBay' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 11 ]==--------<br></span>
-                <span class="reporter-method-output">Button 'How to pay for items' :: Clicking<br></span>
-                <span class="reporter-method-output">--------==[ Step 12 ]==--------<br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output">******************************************************<br></span>
-                <span class="reporter-method-output">***** Test case: 'test.TestGoToHowToPay' Passed! *****<br></span>
-                <span class="reporter-method-output">******************************************************<br></span>
                 <span class="reporter-method-output"><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -752,18 +541,260 @@ return data;
                 <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
                 <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Ebay main form' appears in 1289msec<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 142msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
                 <span class="reporter-method-output">Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br></span>
                 <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
                 <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
-                <span class="reporter-method-output">Form 'Search Results' appears in 668msec<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 242msec<br></span>
                 <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
                 <span class="reporter-method-output"><br></span>
                 <span class="reporter-method-output">************************************************<br></span>
                 <span class="reporter-method-output">***** Test case: 'test.TestSearch' Passed! *****<br></span>
                 <span class="reporter-method-output">************************************************<br></span>
                 <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestFindFirstCameraResult' =====================<br></span>
+                <span class="reporter-method-output">----------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 139msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Cameras & Photo button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Cameras form' appears in 121msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Digital Cameras button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Items from Digital Cameras' appears in 142msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Refine Results button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 147msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Buy It Now button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 11 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 159msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 12 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Price + Shipping: highest first' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 13 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 295msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 14 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'First item button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 15 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Digital Cameras Results' appears in 215msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 16 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestFindFirstCameraResult' Passed! *****<br></span>
+                <span class="reporter-method-output">***************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToMessages' =====================<br></span>
+                <span class="reporter-method-output">-------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 1040msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 165msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 226msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Messages button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My Ebay Messages Form' appears in 134msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">******************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestGoToMessages' Passed! *****<br></span>
+                <span class="reporter-method-output">******************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestSignIn' =====================<br></span>
+                <span class="reporter-method-output">-------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 175msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 136msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 186msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestSignIn' Passed! *****<br></span>
+                <span class="reporter-method-output">************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestAddToCartAndRemove' =====================<br></span>
+                <span class="reporter-method-output">-------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 280msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 164msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 170msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'search bar' :: Typing 'ipad 4g 32gb'<br></span>
+                <span class="reporter-method-output">Button 'Search button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 940msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 10 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 11 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Buy It Now button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 12 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 725msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 13 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Price + Shipping: highest first' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 14 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Search Results' appears in 1063msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 15 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'First item button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 16 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Digital Cameras Results' appears in 196msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 17 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 18 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Add to cart button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 19 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Shopping Cart' appears in 128msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 20 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 21 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'First item remove button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 22 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Shopping Cart' appears in 126msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 23 ]==--------<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">************************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestAddToCartAndRemove' Passed! *****<br></span>
+                <span class="reporter-method-output">************************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToMyEbaySummary' =====================<br></span>
+                <span class="reporter-method-output">------------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 145msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 161msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 123msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'My ebay button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'My Ebay Summary Form' appears in 147msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestGoToMyEbaySummary' Passed! *****<br></span>
+                <span class="reporter-method-output">***********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestGoToShoppingCart' =====================<br></span>
+                <span class="reporter-method-output">-----------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 267msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Sign in form' appears in 147msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 5 ]==--------<br></span>
+                <span class="reporter-method-output">Text Field 'login' :: Typing 'zomox@walkmail.net'<br></span>
+                <span class="reporter-method-output">Text Field 'password' :: Typing 'itransitiona1qa'<br></span>
+                <span class="reporter-method-output">Button 'Sign in' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 6 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 176msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 7 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 8 ]==--------<br></span>
+                <span class="reporter-method-output">Button 'Shopping Cart button' :: Clicking<br></span>
+                <span class="reporter-method-output">--------==[ Step 9 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay Shopping Cart' appears in 119msec<br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output">***** Test case: 'test.TestGoToShoppingCart' Passed! *****<br></span>
+                <span class="reporter-method-output">**********************************************************<br></span>
+                <span class="reporter-method-output"><br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">---------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">=====================  Test case: 'test.TestMenuOnMainForm' =====================<br></span>
+                <span class="reporter-method-output">---------------------------------------------------------------------------------<br></span>
+                <span class="reporter-method-output">--------==[ Preconditions ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 1 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 2 ]==--------<br></span>
+                <span class="reporter-method-output">Form 'Ebay main form' appears in 245msec<br></span>
+                <span class="reporter-method-output">--------==[ Step 3 ]==--------<br></span>
+                <span class="reporter-method-output">--------==[ Step 4 ]==--------<br></span>
+                <span class="reporter-method-output"><div class="skipped"></div><br></span>
+                <span class="reporter-method-output"><div class="failedConfig">>>>>>>>> TEST FAILED <<<<<<<<</div><br></span>
+                <span class="reporter-method-output"><div class="skipped"></div><br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -781,153 +812,155 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.TestGoToHowToPay</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.TestAddToCartAndRemove</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">112 ms</span>
+                <span class="method-start">151 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">53112 ms</span>
+                <span class="method-start">48887 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.TestGoToHowToPay</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">51496 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
+                <span class="method-start">54790 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">after</span>
+                <span class="method-start">85400 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestFindFirstCameraResult</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">53577 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">86957 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">59145 ms</span>
+                <span class="method-start">89987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">105160 ms</span>
+                <span class="method-start">125558 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestSearch</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">105693 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">127021 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">110848 ms</span>
+                <span class="method-start">130045 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">144787 ms</span>
+                <span class="method-start">146672 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestSignIn</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">145220 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">148203 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">150720 ms</span>
+                <span class="method-start">151269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">182754 ms</span>
+                <span class="method-start">179492 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestSignOut</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">183196 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">181069 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">190038 ms</span>
+                <span class="method-start">184028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">260935 ms</span>
+                <span class="method-start">210932 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestGoToShoppingCart</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">261520 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">212491 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">266845 ms</span>
+                <span class="method-start">215441 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">303697 ms</span>
+                <span class="method-start">248589 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestGoToMyEbaySummary</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">304136 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">250115 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">309166 ms</span>
+                <span class="method-start">253069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">465399 ms</span>
+                <span class="method-start">284503 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.TestGoToMessages</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">465962 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">286084 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">471253 ms</span>
+                <span class="method-start">289100 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">516077 ms</span>
+                <span class="method-start">318067 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">test.TestAddToCartAndRemove</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.TestMenuOnMainForm</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">516560 ms</span>
+                <span class="method-name">before(org.testng.TestRunner@9f5bd8)</span>
+                <span class="method-start">319627 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">523543 ms</span>
+                <span class="method-start">322786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">after</span>
-                <span class="method-start">607023 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.TestHoverMenuOnMainForm</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">before(org.testng.TestRunner@11b2b6f)</span>
-                <span class="method-start">607575 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">readParams(http://www.ebay.com/, ipad 4g 32gb, zomox@walkmail.net, itransitiona1qa, Kot)</span>
-                <span class="method-start">613135 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">after</span>
-                <span class="method-start">631597 ms</span>
+                <span class="method-start">337160 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

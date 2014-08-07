@@ -1,9 +1,6 @@
 package test.forms;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import webdriver.BaseForm;
 import webdriver.elements.Button;
 import webdriver.elements.Label;
@@ -17,16 +14,15 @@ public class EbayCustomerSupportForm extends BaseForm{
 	public void clickHowToPay() {
 		mouseOverBying();
 		btnHowToPay.click();
+		browser.waitForPageToLoad();
 	}
 	public void clickContactEbay() {
 		btnContactEbay.click();
+		browser.waitForPageToLoad();
 	}
-	public void mouseOverBying() {
-		RemoteWebDriver driver = browser.getDriver();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.id("0_t"));
-      	actions.moveToElement(menuHoverLink);
-    	actions.perform();	
+	public void mouseOverBying()
+	{
+		mouseOver(By.id("0_t"));
 	}
 	public void howToPayAssert(){
 		assert(lbHowToPay.isPresent(10));

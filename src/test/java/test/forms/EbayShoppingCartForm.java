@@ -15,8 +15,13 @@ public class EbayShoppingCartForm extends BaseForm{
 	}
 	public void clickRemove() {
 		btnRemove.click();
+		browser.waitForPageToLoad();
 	}
 	public EbayShoppingCartForm() {
 		super(By.xpath(formlocator), "Ebay Shopping Cart");
+	}
+	public void nameOfItemAssert(String itemname){
+		final Button btnItemName = new Button (By.linkText(itemname),"Item name button");
+		assert(btnItemName.isPresent());
 	}
 }

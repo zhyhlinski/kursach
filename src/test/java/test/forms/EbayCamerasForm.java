@@ -10,6 +10,7 @@ public class EbayCamerasForm extends BaseForm{
     
 	public void clickDigitalCameras() {
 		btnDigitalCameras.click();
+		browser.waitForPageToLoad();
     } 
 	
 	public EbayCamerasForm() {
