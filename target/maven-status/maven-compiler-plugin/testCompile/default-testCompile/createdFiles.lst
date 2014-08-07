@@ -7,7 +7,6 @@ test\forms\EbaySignOutForm.class
 webdriver\elements\TextBox.class
 webdriver\Browser.class
 test\TestSignIn.class
-test\TestHoverMenuOnMainForm.class
 test\forms\EbayMainForm.class
 test\TestGoToMessages.class
 test\TestAddToCartAndRemove.class
@@ -26,6 +25,7 @@ test\TestGoToShoppingCart.class
 webdriver\Logger.class
 test\TestFindFirstCameraResult.class
 webdriver\Browser$Browsers.class
+test\TestMenuOnMainForm.class
 test\forms\EbayMyEbayMessagesForm.class
 webdriver\PropertiesResourceManager.class
 test\forms\EbayCamerasForm.class
